@@ -1,0 +1,179 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+head{
+    width: 100%;
+    height: 15%;
+}
+#main-body {
+    position: relative;
+    width: 100%;
+    top: 15%;
+    left: 5%;
+}
+
+/* ----------Main Text----------*/
+.main-text {
+    display: inline-block;
+    font-size: x-large;
+}
+.typed {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 2s steps(30, end) forwards;
+}
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+/*-------------Top Picture-----------------*/
+#main-pic {
+    float: right;
+    position: absolute;
+    top: 8%;;
+    right: 0;
+    border-radius: 86px;
+}
+/* ------------------------Nav Bar designing----------------*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: orangered;
+}
+
+.btn {
+    background-color: rgb(21, 112, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: large;
+    padding: 5px;
+    width: 70px;
+    height: auto;
+    color: white;
+}
+
+.btn:hover {
+    background-color: black;
+}
+li a{
+    color: orangered;
+    cursor: pointer;
+    text-decoration: none;
+}
+li a:hover{
+    color: black;
+}
+
+/* ----------------Second Element /section designing--------- */
+#section2{
+    width: 100%;
+    position: absolute;
+    left: 5%;
+}
+.block{
+    display: inline-block;
+    width: 15%;
+    height: 10%;
+    border: 2px double saddlebrown;
+    padding: 4%;
+    margin: 2%;
+    box-shadow: 2px 2px saddlebrown;
+}
+.block-text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    text-align: center;
+}
+a{
+    color: rgb(255, 204, 0);
+    text-decoration: none;
+}
+/*--------------------Block backside Pictures-------------------*/
+.ai{
+    background-image: url('ai.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+.ml{
+    background-image: url('ml.png');
+    background-size: cover;
+    opacity: 0.9;
+}
+.ds{
+    background-image: url('db.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+.programming{
+    background-image: url('prog.png');
+    background-size: cover;
+    opacity: 0.9;
+}
+.cs{
+    background-image: url('cs.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+.tech{
+    background-image: url('tech.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+/*----------------Sign Up Form ---------------------*/
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-image: url('tech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    height: 550px;
+    width: 400px;
+    padding: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    font: x-large;
+}
+#form-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4%;
+    width: 100%;
+}
+.userbox{
+    padding: 5px;
+}
+input{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid saddlebrown;
+    background-color: white;
+    padding: 10px;
+}
